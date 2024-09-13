@@ -27,12 +27,13 @@ nav a {
     width: 120px;
 
 }
-}
+
 
 h1 {
     font-family: "Pangolin", cursive;
     font-style: normal;
     font-size: 45px;
+    color: #000000;
 }
 
 p {
@@ -77,4 +78,40 @@ footer {
 
 img {
     align-items: center;
+    height: 300px;
+    width: 400px:
+}
+
+header.img {
+    align-items: center;
+    height: 70px;
+    width: 150px;
+}
+
+ul {
+    font-family: "Nunito", system-ui;
+    font-size: 30px;
+    font-style: normal;
+    color: #000000;
+}
+
+.addressDiv {
+    border: 10px outset #D9D9D9;
+    border-style:solid;
+    background-color: #ffffff;    
+    text-align: center;
+}
+
+.telephoneDiv {
+    border: 10px outset #D9D9D9;
+    border-style:solid;
+    background-color: #ffffff;    
+    text-align: center;
+}
+
+.emailDiv {
+    border: 10px outset #D9D9D9;
+    border-style:solid;
+    background-color: #ffffff;    
+    text-align: center;
 }
