@@ -28,6 +28,14 @@ nav a {
     padding-right: 12px;
 }
 
+nav a:hover {
+    background-color: #FFECA0;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
 
 h1 {
     font-family: "Pangolin", cursive;
@@ -53,8 +61,9 @@ h2 {
 
 h3 {
     font-family: "Pangolin", cursive;
-    font-size: 15px;
     font-style: normal;
+    font-size: 15px;
+    color: #000000;
 }
 
  
@@ -76,16 +85,17 @@ footer {
     
 }
 
+header img {
+    float: none;
+    align: center;
+    height: 150px;
+    width: 500px;
+}
+
 img {
     align-items: center;
     height: 300px;
-    width: 400px:
-}
-
-header.img {
-    align-items: center;
-    height: 70px;
-    width: 150px;
+    width: 400px;
 }
 
 ul {
@@ -99,22 +109,45 @@ ul {
 
 
 .addressDiv {
-    border: 10px outset #D9D9D9;
+    border: 15px outset #D9D9D9;
     border-style:solid;
     background-color: #ffffff;    
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
 .telephoneDiv {
-    border: 10px outset #D9D9D9;
+    border: 15px outset #D9D9D9;
     border-style:solid;
     background-color: #ffffff;    
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .emailDiv {
-    border: 10px outset #D9D9D9;
+    border: 15px outset #D9D9D9;
     border-style:solid;
     background-color: #ffffff;    
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
+
+header {grid-area: header;}
+nav {grid-area: nav;}
+main {grid-area: main;}
+aside {grid-area: aside;}
+footer {grid-area: footer;}
+
+.grid-container {
+display: grid;
+grid-template-areas:
+'header header header header header header header header header header'
+'nav nav nav nav nav nav nav nav nav nav'
+'nav main main main main main main main main main nav'
+'footer footer footer footer footer footer footer footer footer footer';
+gap: 10px;
+padding:10px;
+        }
