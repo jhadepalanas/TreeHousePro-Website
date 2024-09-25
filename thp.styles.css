@@ -64,9 +64,9 @@ h3 {
     font-style: normal;
     font-size: 25px;
     color: #000000;
-    margin-bottom: 5px;
-    text-align: center;
-    
+    margin-bottom: 5px;  
+    margin-top: 10px;
+
 }
 
  
@@ -75,7 +75,6 @@ h4 {
     font-size: 20px;
     font-style: normal;
     margin-top: 5px;
-    text-align: center;
 }
 
 footer {
@@ -90,13 +89,7 @@ footer {
     
 }
 
-header img {
-    float: none;
-    margin-right: 500px;
-    margin-left: 500px;
-    height: 150px;
-    width: 500px;
-}
+
 
 img {
     align: center;
@@ -142,10 +135,15 @@ ul {
     margin-top: 15px;
     margin-bottom: 15px;
 }
+.logoDiv {
+    box-align: center;
+    height: 150px;
+    width: 500px;
+
+}
 
 aside img {
     height: 220px;
     width: 220px;
-    margin-right: 500px;
-    margin-left: 655px
+    margin-top: 25px;
 }
