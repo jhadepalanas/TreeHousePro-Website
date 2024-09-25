@@ -92,7 +92,7 @@ footer {
 
 
 img {
-    align: center;
+    align-items: center;
     height: 300px;
     width: 400px;
 }
@@ -135,12 +135,7 @@ ul {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.logoDiv {
-    box-align: center;
-    height: 150px;
-    width: 500px;
 
-}
 
 aside img {
     height: 220px;
