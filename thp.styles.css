@@ -68,7 +68,7 @@ h2 {
 h3 {
     font-family: "Pangolin", cursive;
     font-style: normal;
-    font-size: 35px;
+    font-size: 25px;
     color: #000000;
     margin-bottom: 5px;  
     margin-top: 10px;
@@ -152,7 +152,7 @@ ul {
 }
 
 aside img {
-    height: 300px;
-    width: 300px;
+    height: 220px;
+    width: 220px;
     margin-top: 25px;
 }
